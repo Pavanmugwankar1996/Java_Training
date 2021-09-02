@@ -28,7 +28,9 @@ public class HashMap_Demo_2 {
 			}
 			else
 				hm.put(fruit, 1);
+			System.out.println(hm.get(fruit));
 		}
+		
 
 	}
 

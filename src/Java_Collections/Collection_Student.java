@@ -54,29 +54,25 @@ public class Collection_Student implements Comparable <Collection_Student>
 	}
 	
 	public String toString() {
-		return "Student [name=" + name + ", qualification=" + qualification + ", mobile=" + mobile + ", percent="
-				+ per + "]";
+		return "Student [name=" + name + ", qualification=" + qualification +  ", percent="+ per + ", mobile=" + mobile + "]";
 	}
 
 	
 	public int compareTo(Collection_Student o) {
-		//this 
-		/*//o
-		 
-		if(o.percent<this.percent)
-			return -1;
-		else if(o.percent>this.percent)
-			return 1;
-		else
-			return 0;*/
-	//return o.name.compareTo(this.name);
 		
-		if(o.name.length()<this.name.length())
-			return -1;
-		else if(o.name.length()>this.name.length())
-			return +1;
-		else 
-			return 0;
+		
+		  if(o.per<this.per) return -1; 
+		  else if(o.per>this.per) return 1; 
+		  else 
+			  return 0; 
+		  //return
+		  //o.name.compareTo(this.name);
+		 
+		
+			/*
+			 * if(o.name.length()<this.name.length()) return -1; else
+			 * if(o.name.length()>this.name.length()) return +1; else return 0;
+			 */
 			
 	}	
 
